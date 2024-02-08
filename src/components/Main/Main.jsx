@@ -47,7 +47,7 @@ const Main = () => {
         });
         setDataStore((prevDataStore) => prevDataStore.slice(1));
       }
-    }, 1000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [dataStore]);
